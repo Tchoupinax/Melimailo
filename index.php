@@ -40,6 +40,7 @@
         <div class="row">
             <div class="col-md-2">
 
+                <img src="images/mail_logo.png" class="img-responsive" alt="Responsive image">
 
             </div>
             <div class="col-md-8">
