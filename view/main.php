@@ -48,13 +48,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About</a>
+                        <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                  <input type="text" class="form-control" placeholder="Search for...">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-success" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                  </span>
+                            </div>
+                        </form>
                     </li>
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> cyberghost@melimailo.net</a>
                     </li>
                 </ul>
             </div>
@@ -64,16 +68,66 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-trois">
 
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.7</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+            <div class="col-md-4">
+            
+
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a></li>
+                      <li><a data-toggle="tab" href="#menu1"><i class="fa fa-id-badge fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <div class="meli_cadre_main">
+
+
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-inbox fa-1x" aria-hidden="true"></i>  Boite de réception (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-send fa-1x" aria-hidden="true"></i>  Messages envoyés (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-inbox fa-1x" aria-hidden="true"></i>  Spam (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-trash fa-1x" aria-hidden="true"></i>  Corbeille (500)
+                            </div>                            
+
+
+                        </div>
+                      </div>
+                      <div id="menu1" class="tab-pane fade">
+                        <div class="meli_cadre_main">
+
+
+
+
+
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
+            </div>
+            <div class="col-md-8">
+
+                <div class="meli_cadre_main">
+
+
+
+
+
+                </div>
+
+
             </div>
         </div>
         <!-- /.row -->
