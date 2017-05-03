@@ -1,5 +1,5 @@
 <?php
-    include('model/home.php');
+    include('model/inscription.php');
 
 
 
