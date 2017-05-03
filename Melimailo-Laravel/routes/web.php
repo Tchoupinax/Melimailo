@@ -11,6 +11,13 @@
 |
 */
 
+// HOME
 Route::get('/', function () {
     return view('home');
 });
+
+// INSCRIPTION
+Route::get('/sign-up', function() {
+    return view('signup');
+})->name('form.signup');
+
