@@ -1,0 +1,11 @@
+body {
+    padding-top: 180px;
+    background-color: #1BBC9B;
+}
+
+.container-deux {
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}

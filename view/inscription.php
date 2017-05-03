@@ -56,14 +56,18 @@
                         </div>
                       </div>
                       <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">Retapez : </label>
+                        <div class="col-sm-9">
+                          <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de passe">
+                        </div>
+                      </div>
+                      <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn btn-success btn-block btn-sm">Connexion</button>
-                          <a class="btn btn-success btn-sm btn-block" href="index.php?page=inscription" role="button">Inscription</a>
+                          <button type="submit" class="btn btn-success btn-block btn-sm">Inscription</button>
+                          <a class="btn btn-success btn-sm btn-block" href="index.php?page=home" role="button">Connexion</a>
                         </div>
                       </div>
                     </form>
-                    <br>
-                    <br>
                 </div>
                 <a href="https://github.com/Tchoupinax/Melimelo" target="_blank"><img src="ressources/images/github.png" width="30" height="30" title="Dépôt GitHub" alt="Responsive image"></a>
             </div>  
