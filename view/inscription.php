@@ -42,29 +42,27 @@
             </div>
             <div class="col-md-9">
                 <div class="well">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" action="index.php?page=inscription" method="post">
                       <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-3 control-label">Pseudo : </label>
+                        <label for="pseudo" class="col-sm-3 control-label">Pseudo : </label>
                         <div class="col-sm-9">
-                          <input type="text" class="form-control" id="inputEmail3" placeholder="Pseudo">
+                          <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Pseudonyme">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-3 control-label">Mot de passe : </label>
+                        <label for="password1" class="col-sm-3 control-label">Mot de passe : </label>
                         <div class="col-sm-9">
-                          <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de passe">
+                          <input type="password" class="form-control" name="password1" id="password1" placeholder="Mot de passe">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-3 control-label">Retapez : </label>
+                        <label for="password2" class="col-sm-3 control-label">Retapez : </label>
                         <div class="col-sm-9">
-                          <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de passe">
+                          <input type="password" class="form-control" name="password2" id="password2" placeholder="Mot de passe">
                         </div>
                       </div>
                       <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn btn-success btn-block btn-sm">Inscription</button>
-                          <a class="btn btn-success btn-sm btn-block" href="index.php?page=home" role="button">Connexion</a>
+                            <button type="submit" class="btn btn-success btn-sm btn-block">Inscription</button>
                         </div>
                       </div>
                     </form>
