@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="ressources/images/mail_logo.png" class="img-responsive" alt="Responsive image"> <br>
+                {{ HTML::image('image/mail_logo.png', 'Responsive image', array('class' => 'img-responsive')) }}
                 <font color="white">Bienvenue sur <b>MeliMailo</b> 
                 <br>
                 <hr>
@@ -63,7 +63,7 @@
                     <br>
                     <br>
                 </div>
-                <a href="https://github.com/Tchoupinax/Melimelo" target="_blank">{{ HTML::image('image/github.png',  $alt="DRCSports") }}</a>
+                <a href="https://github.com/Tchoupinax/Melimelo" target="_blank">{{ HTML::image('image/github.png', 'Responsive image', array('class' => 'img-responsive', 'width' => '30', 'heigth' => '30')) }}</a>
             </div>  
         </div>
         <!-- /.row -->
