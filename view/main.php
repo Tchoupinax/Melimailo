@@ -72,14 +72,47 @@
 
         <div class="row">
             <div class="col-md-4">
-                
-                <div class="meli_cadre_main">
+            
+
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a></li>
+                      <li><a data-toggle="tab" href="#menu1"><i class="fa fa-id-badge fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <div class="meli_cadre_main">
+
+
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-inbox fa-1x" aria-hidden="true"></i>  Boite de réception (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-send fa-1x" aria-hidden="true"></i>  Messages envoyés (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-inbox fa-1x" aria-hidden="true"></i>  Spam (500)
+                            </div>
+                            <div class="meli_cadre_categorie">
+                                <i class="fa fa-trash fa-1x" aria-hidden="true"></i>  Corbeille (500)
+                            </div>                            
+
+
+                        </div>
+                      </div>
+                      <div id="menu1" class="tab-pane fade">
+                        <div class="meli_cadre_main">
 
 
 
 
 
-                </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
 
 
 
