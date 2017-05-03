@@ -57,7 +57,7 @@
                       </div>
                       <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn btn-success btn-block btn-sm">Connexion</button>
+                          <a class="btn btn-success btn-sm btn-block" href="index.php?page=connexion" role="button">Connexion</a>
                           <a class="btn btn-success btn-sm btn-block" href="index.php?page=inscription" role="button">Inscription</a>
                         </div>
                       </div>
