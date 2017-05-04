@@ -10,6 +10,7 @@
     <title>Home</title>
     {{ HTML::style('css/bootstrap/css/bootstrap.min.css') }}
     {{ HTML::style('css/fontawesome/css/font-awesome.min.css') }}
+    {{ HTML::style('css/home.css') }}
 </head>
 
 <body>
@@ -39,8 +40,8 @@
                       </div>
                       <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            {{ HTML::link(URL::route('form.signup'), 'Sign Up', array('class' => 'btn btn-success btn-sm btn-block')) }}
                             {{ HTML::link('#', 'Sign In', array('class' => 'btn btn-success btn-sm btn-block')) }}
+                            {{ HTML::link(URL::route('form.signup'), 'Sign Up', array('class' => 'btn btn-success btn-sm btn-block')) }}
                         </div>
                       </div>
                     </form>

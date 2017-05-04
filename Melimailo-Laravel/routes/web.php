@@ -16,8 +16,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-// INSCRIPTION
+// INSCRIPTION VIEW
 Route::get('/sign-up', function() {
     return view('signup');
 })->name('form.signup');
-
