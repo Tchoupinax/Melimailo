@@ -12,11 +12,8 @@
 */
 
 // HOME
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
-// INSCRIPTION VIEW
-Route::get('/sign-up', function() {
-    return view('signup');
-})->name('form.signup');
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
